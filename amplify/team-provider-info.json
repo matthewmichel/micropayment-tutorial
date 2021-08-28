@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-micropaymenttutorial-dev-135633-authRole",
+      "UnauthRoleArn": "arn:aws:iam::595340848871:role/amplify-micropaymenttutorial-dev-135633-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::595340848871:role/amplify-micropaymenttutorial-dev-135633-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-micropaymenttutorial-dev-135633-deployment",
+      "UnauthRoleName": "amplify-micropaymenttutorial-dev-135633-unauthRole",
+      "StackName": "amplify-micropaymenttutorial-dev-135633",
+      "StackId": "arn:aws:cloudformation:us-east-2:595340848871:stack/amplify-micropaymenttutorial-dev-135633/4a4bdd90-0829-11ec-be46-0aae0ae894e6",
+      "AmplifyAppId": "d3o45qie41xli0"
+    }
+  }
+}
