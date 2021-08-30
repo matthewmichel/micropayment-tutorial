@@ -28,17 +28,19 @@ function App() {
               </a>
             </>
             :
-            <div style={{ width: '50%' }}>
-              <PaymentCard
-                apiKey="Cpwqm1zake5IKEV0L4ivW8KBOmBn4OqOaQo7cYxj"
-                productId="5396ecb3-428e-40cd-b676-c66bed15371c"
-                onSuccess={(res) => {
-                  setPaymentSuccessful(true)
-                }}
-                onError={(err) => {
-                  console.error(err)
-                }}
-              />
+            <div className="row w-100 flex-row justify-content-center align-items-center">
+              <div className="col-sm-12 col-lg-4">
+                <PaymentCard
+                  apiKey="Cpwqm1zake5IKEV0L4ivW8KBOmBn4OqOaQo7cYxj"
+                  productId="5396ecb3-428e-40cd-b676-c66bed15371c"
+                  onSuccess={(res) => {
+                    setPaymentSuccessful(true)
+                  }}
+                  onError={(err) => {
+                    console.error(err)
+                  }}
+                />
+              </div>
             </div>
         }
 
